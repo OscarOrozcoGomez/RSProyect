@@ -28,9 +28,9 @@ public class WebDriverFactory extends CapabilitiesSetUp{
 			case "IE":
 				driver = new InternetExplorerDriver();
 				break;
-			case "Appium":
-				driver = new AppiumDriver<>(new URL("http://127.0.0.1:4723/wd/hub"), iOSCapabilities());
-				break;
+//			case "Appium":
+//				driver = new AppiumDriver<>(new URL("http://127.0.0.1:4723/wd/hub"), iOSCapabilities(DesiredCapabilitie{""}));
+//				break;
 				//		case "Android":
 				//			driver = new AndroidDriver();
 				//			break;
